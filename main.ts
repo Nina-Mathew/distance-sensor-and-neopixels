@@ -14,33 +14,32 @@ basic.forever(function () {
     )
 })
 basic.forever(function () {
-    let distance = 0
     strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
-    if (distance > 4) {
-        basic.showNumber(distance)
+    if (distancetotheobject > 4) {
+        basic.showNumber(distancetotheobject)
         strip2.showColor(neopixel.colors(NeoPixelColors.Green))
         strip2.show()
     }
-    if (distance == 4) {
-        basic.showNumber(distance)
+    if (distancetotheobject == 4) {
+        basic.showNumber(distancetotheobject)
         strip2.showColor(neopixel.colors(NeoPixelColors.Blue))
         strip2.show()
     }
-    if (distance == 3) {
-        basic.showNumber(distance)
+    if (distancetotheobject == 3) {
+        basic.showNumber(distancetotheobject)
         strip2.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
         strip2.setPixelColor(1, neopixel.colors(NeoPixelColors.Blue))
         strip2.setPixelColor(2, neopixel.colors(NeoPixelColors.Blue))
         strip2.show()
     }
-    if (distance == 2) {
-        basic.showNumber(distance)
+    if (distancetotheobject == 2) {
+        basic.showNumber(distancetotheobject)
         strip2.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
         strip2.setPixelColor(1, neopixel.colors(NeoPixelColors.Blue))
         strip2.show()
     }
-    if (distance < 1) {
-        basic.showNumber(distance)
+    if (distancetotheobject < 1) {
+        basic.showNumber(distancetotheobject)
         strip2.showColor(neopixel.colors(NeoPixelColors.Red))
         strip2.show()
     }
