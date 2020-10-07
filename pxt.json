@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
-        "Neopixels": "github:nina-mathew/neopixels#master"
+        "Neopixels": "github:nina-mathew/neopixels#c740f53e372d4ccddb1282fb4dcdeab7eeda1a38"
     },
     "files": [
         "main.blocks",
