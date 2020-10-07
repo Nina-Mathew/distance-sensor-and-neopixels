@@ -1,17 +1,11 @@
-/**
- * Created by: Nina Mathew
- */
+// Created by; Nina Mathew
+// Created on; 10/05/20
+// Combines Neopixels and Distance Sensor.
 let strip2: neopixel.Strip = null
 let distancetotheobject = 0
 basic.showIcon(IconNames.Yes)
 basic.clearScreen()
 basic.pause(500)
-/**
- * This program combines Neopixels and distance sensor
- */
-/**
- * Created on: 10/2/20
- */
 basic.forever(function () {
     distancetotheobject = sonar.ping(
     DigitalPin.P1,
